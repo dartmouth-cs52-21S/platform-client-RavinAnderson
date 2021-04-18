@@ -28,13 +28,13 @@ module.exports = {
       //     },
       //   ],
       // },
-      // {
-      //   test: /\.js$/,
-      //   exclude: /node_modules/,
-      //   use: [
-      //     { loader: 'babel-loader' },
-      //   ],
-      // },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: [
+          { loader: 'babel-loader' },
+        ],
+      },
       {
         test: /\.(jpe?g|png|gif)$/,
         loader: 'url-loader',
