@@ -12,22 +12,15 @@ const finalCSSLoader = (env === 'production') ? MiniCssExtractPlugin.loader : { 
 
 module.exports = {
   mode: env,
+  output: { publicPath: '/' },
   entry: ['./src'], // this is where our app lives
   devtool: 'source-map', // this enables debugging with source in chrome devtools
+  devServer: {
+    hot: true,
+    historyApiFallback: true,
+  },
   module: {
     rules: [
-      // {
-      //   test: /\.(jpe?g|png|gif|svg)$/,
-      //   use: [
-      //     {
-      //       loader: 'file-loader',
-      //       options: {
-      //         useRelativePath: true,
-      //         name: '[name].[ext]',
-      //       },
-      //     },
-      //   ],
-      // },
       {
         test: /\.js$/,
         exclude: /node_modules/,
