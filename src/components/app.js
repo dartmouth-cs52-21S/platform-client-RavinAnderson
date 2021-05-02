@@ -8,7 +8,7 @@ import Control from './control';
 const About = (props) => {
   return <div> All there is to know about me </div>;
 };
-const Welcome = (props) => {
+const Welcome = (prçops) => {
   return <div><Counter /><Control /></div>;
 };
 const Test = (props) => {
