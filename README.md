@@ -1,6 +1,4 @@
-# Title
-
-*description*
+# Beatles Blog
 
 [deployed url](http://url-if-deployed-here)
 
