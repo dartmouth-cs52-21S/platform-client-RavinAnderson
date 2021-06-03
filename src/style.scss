@@ -46,6 +46,12 @@ nav{
   text-align: center;
 }
 
+#post-area{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 
 .post-section {
   width: 28%;
@@ -130,4 +136,10 @@ nav{
     color: gray;
     padding-left: 5%;
   }
+}
+
+#search-bar{
+  margin-top: 1%;
+  text-align: center;
+  background: rgb(219, 176, 219);
 }

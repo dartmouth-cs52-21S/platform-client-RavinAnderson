@@ -29,15 +29,12 @@ class Post extends React.Component {
   }
 
   onEdit = (event) => {
-    console.log('editclicked');
     if (this.state.isEditing) {
-      console.log('currently editing');
       this.props.updatePost(this.props.currentPost._id, this.state.postInfo);
       this.setState((prevState) => ({
         isEditing: !prevState.isEditing,
       }));
     } else {
-      console.log('not editing');
       this.setState({
         postInfo: {
           title: this.props.currentPost.title,
@@ -84,7 +81,6 @@ class Post extends React.Component {
   }
 
   onUrlChange = (event) => {
-    console.log('post', event.target.value);
     this.setState({
       postInfo: {
         coverUrl: event.target.value,
