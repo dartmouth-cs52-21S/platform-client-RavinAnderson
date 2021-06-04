@@ -11,7 +11,8 @@ This lab took a really long time and was a huge learning effort for me. Doing it
 ## Extra Credit
 I implemented input validation (checking to see whether each field was filled when creating a new post) and a search feature for tags. To see the entire list of posts just delete what is in the search box.
 
-<img src="https://i.ibb.co/YR0mkbh/Screen-Shot-2021-06-03-at-9-56-16-PM.png" alt ="Screenshot of Work">
-<img src="https://i.ibb.co/fNLW961/Screen-Shot-2021-06-03-at-9-55-49-PM.png" alt ="Screenshot of Work">
+<img src="https://i.ibb.co/YR0mkbh/Screen-Shot-2021-06-03-at-9-56-16-PM.png" alt ="Input Validation">
+<img src="https://i.ibb.co/fNLW961/Screen-Shot-2021-06-03-at-9-55-49-PM.png" alt ="Search for Tags">
 
 ## Screenshots
+<img src="https://media.giphy.com/media/Ey8XfhXG40vVPHkN0B/giphy.gif" alt ="Video of Work">
