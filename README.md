@@ -1,6 +1,6 @@
 # Beatles Blog
 
-[deployed url](https://silly-shaw-093b5f.netlify.app)
+[Link to Blog](https://silly-shaw-093b5f.netlify.app)
 
 ## What Worked Well
 Learning Redux was a super cool experience and applying some of the logic from Lab 3 turned out to be pretty simple. Styling has become extremely achievable, flexboxes for the win. The format for tackling these projects has become clearer in the process of doing this lab, and I feel like I understand why things are happening the way they are. Passing down information with props is less confusing now and despite some difficulty with rendering, I have a new found appreciation for the breakdown of conditionals using other functions.
